@@ -1,6 +1,8 @@
 # Lightfeather Back-End Challenge
 
-This is an exclusively back-end application. In order to use it, some level of experience with an API-testing workspace is required. I recommend either [Insomnia](insomnia.rest) or [Postman](https://www.postman.com/).
+This back-end program exposes an API in order to retrieve a list of supervisors and submit personal information.
+
+It is an exclusively back-end application. In order to use it, some level of experience with an API-testing workspace is required. I recommend either [Insomnia](insomnia.rest) or [Postman](https://www.postman.com/).
 </br>
 
 ## Installation:
@@ -20,14 +22,25 @@ Then, type:
 nodemon .
 ```
 
-_^^ The period simply navigates to index.js_  
-Open your preferred API Workspace of choice and make sure your requests go to:
+Open your preferred API Workspace of choice (e.g. [Insomnia](insomnia.rest) or [Postman](https://www.postman.com/)) and make sure your requests go to:
 
 ```https
+localhost:8080/
+```
+
+When performing a GET, ensure that your address is set to:
+
+```
+localhost:8080/api/supervisors
+```
+
+When performing a POST, ensure that your address is set to:
+
+```
 localhost:8080/api/submit
 ```
 
-When performing a POST, ensure that your JSON format is as follows:
+And ensure your JSON format is as follows:
 
 ```JSON
 {
