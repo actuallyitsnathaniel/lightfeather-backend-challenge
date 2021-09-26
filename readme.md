@@ -1,22 +1,34 @@
 # Lightfeather Back-End Challenge
 
 This is an exclusively back-end application. In order to use it, some level of experience with an API-testing workspace is required. I recommend either [Insomnia](insomnia.rest) or [Postman](https://www.postman.com/).
+</br>
+
+## Installation:
+
+```bash
+git clone https://github.com/actuallyitsnathaniel/lightfeather-backend-challenge.git
+```
+
+</br>
 
 ## Usage:
 
-To get the server running, type:
+To get the server running, navigate to the root directory of this repository after cloning. </br>
+Then, type:
 
 ```
-nodemon index.js
+nodemon .
 ```
 
+_^^ The period simply navigates to index.js_
+</br>
 Open your preferred API Workspace of choice and make sure your requests go to:
 
-```
-localhost:8080
+```https
+localhost:8080/api/submit
 ```
 
-When POST-ing, ensure that your JSON format is as follows:
+When performing a POST, ensure that your JSON format is as follows:
 
 ```JSON
 {
@@ -27,3 +39,5 @@ When POST-ing, ensure that your JSON format is as follows:
 	"supervisor": "Super Visor"
 }
 ```
+
+_^^ firstName, lastName, and supervisor are the only required entries._
