@@ -1,0 +1,23 @@
+{
+  "name": "lightfeather-back-end-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .bin/www",
+    "watch": "nodemon --ext *"
+  },
+  "author": "Nathaniel Bowman",
+  "license": "ISC",
+  "dependencies": {
+    "cross-fetch": "^3.1.4",
+    "express": "^4.17.1",
+    "got": "^11.8.2",
+    "inquirer": "^8.1.5"
+  },
+  "devDependencies": {
+    "connect-livereload": "^0.6.1",
+    "livereload": "^0.9.3"
+  }
+}
