@@ -11,7 +11,7 @@ It is an exclusively back-end application. In order to use it, some level of exp
 $ git clone https://github.com/actuallyitsnathaniel/lightfeather-backend-challenge.git
 ```
 
-```node
+```bash
 $ cd lightfeather-backend-challenge
 $ npm i
 ```
