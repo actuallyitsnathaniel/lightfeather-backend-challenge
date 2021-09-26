@@ -5,10 +5,20 @@ This back-end program exposes an API in order to retrieve a list of supervisors 
 It is an exclusively back-end application. In order to use it, some level of experience with an API-testing workspace is required. I recommend either [Insomnia](insomnia.rest) or [Postman](https://www.postman.com/).
 </br>
 
-## Installation:
+## Installation/Prerequisites:
 
 ```bash
-git clone https://github.com/actuallyitsnathaniel/lightfeather-backend-challenge.git
+$ git clone https://github.com/actuallyitsnathaniel/lightfeather-backend-challenge.git
+```
+
+```node
+$ npm i
+```
+
+OR
+
+```
+$ npm install
 ```
 
 </br>
@@ -19,7 +29,7 @@ To get the server running, navigate to the root directory of this repository aft
 Then, type:
 
 ```
-nodemon .
+$ nodemon .
 ```
 
 Open your preferred API Workspace of choice (e.g. [Insomnia](insomnia.rest) or [Postman](https://www.postman.com/)) and make sure your requests go to:
@@ -52,4 +62,4 @@ And ensure your JSON format is as follows:
 }
 ```
 
-_^^ firstName, lastName, and supervisor are the only required entries._
+_^^ firstName, lastName, and supervisor are required fields._
