@@ -12,6 +12,7 @@ $ git clone https://github.com/actuallyitsnathaniel/lightfeather-backend-challen
 ```
 
 ```node
+$ cd lightfeather-backend-challenge
 $ npm i
 ```
 
@@ -25,7 +26,7 @@ $ npm install
 
 ## Usage:
 
-To get the server running, navigate to the root directory of this repository after cloning. </br>
+You should be in the root directory of the repository after installing. </br>
 Then, type:
 
 ```
