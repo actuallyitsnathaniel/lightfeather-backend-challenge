@@ -20,8 +20,7 @@ Then, type:
 nodemon .
 ```
 
-_^^ The period simply navigates to index.js_
-</br>
+_^^ The period simply navigates to index.js_  
 Open your preferred API Workspace of choice and make sure your requests go to:
 
 ```https
