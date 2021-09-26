@@ -5,20 +5,13 @@ This back-end program exposes an API in order to retrieve a list of supervisors 
 It is an exclusively back-end application. In order to use it, some level of experience with an API-testing workspace is required. I recommend either [Insomnia](insomnia.rest) or [Postman](https://www.postman.com/).
 </br>
 
-## Installation/Prerequisites:
+## Installation:
 
 ```bash
 $ git clone https://github.com/actuallyitsnathaniel/lightfeather-backend-challenge.git
-```
 
-```bash
 $ cd lightfeather-backend-challenge
-$ npm i
-```
 
-OR
-
-```
 $ npm install
 ```
 
